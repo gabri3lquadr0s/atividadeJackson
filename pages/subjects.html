@@ -1,67 +1,13 @@
 <link rel="stylesheet" href="../css/subjects.css">
 
+<!-- <div class="paralax">
+    <h1></h1> -->
 <div class="paralax">
-    <h1 id="title"></h1>
+    <h1></h1>
 </div>
+<!-- </div> -->
 
-<div class="content">
-</div>
+<div class="content"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script>
-    window.addEventListener('message', function(e) {
-        console.log(e.data);
-        getJsonData(e.data);
-    })
-
-    var stuff = {
-            "data": [
-                {
-                    "id": 1,
-                    "subject": "Técnico",
-                    "img": "",
-                    "atts": [{ "src": "", "description": "asd", "title": "React" }, { "src": "", "description": "", "title": "" },  { "src": "", "description": "", "title": "" }]
-                },
-                {
-                    "id": 2,
-                    "subject": "Matemática",
-                    "img": "../img/mat.jpg",
-                    "atts": [{ "src": `<iframe width="200" height="300"src="https://www.youtube.com/embed/SrCFrMm6D6A"></iframe>`, "description": "Esta atividade foi realizada como inicio do nosso aprendizado sobre trigonometria no 3º ano do Ensino Médio, focando na prática da Lei do Seno e Lei do Cosseno. Produzimos um vídeo detalhando o processo de construção da ferramenta e medição dos ângulos.", "title": "Construção do Teodolito" }, { "src": "", "description": "", "title": "" }, { "src": "", "description": "", "title": "" }]
-                },
-                {
-                    "id": 3,
-                    "subject": "Natureza",
-                    "img": "../img/nat.jpg",
-                    "atts": [{ "src": "Esta aqui é a prova que realizamos de Ciências da Natureza no mês de abril, no qual o assunto foi Química Orgânica e Eletroestática", "description": "", "title": "Prova" }, { "src": "", "description": "", "title": "" }, { "src": "", "description": "", "title": "" }]
-                },
-                {
-                    "id": 4,
-                    "subject": "Humanas",
-                    "img": "",
-                    "atts": [{ "src": "", "description": "", "title": "Assembleia da ONU" }, { "src": "", "description": "", "title": "" }, { "src": "", "description": "", "title": "" }]
-                },
-                {
-                    "id": 5,
-                    "subject": "Linguagens",
-                    "img": "",
-                    "atts": [{ "src": "", "description": "", "title": "Plano de Texto" }, { "src": "", "description": "", "title": "" }, { "src": "", "description": "", "title": "" }]
-                }
-            ]
-        }
-
-    function getJsonData(id) {
-        let data = stuff.data[id-1];
-        $('.paralax').css('background-image', `url(${data.img})`);
-        $('#title').text(data.subject);
-        $('.content').html('')
-        for(let i = 0; i < data.atts.length; i++) {
-            let element;
-            if(data.atts[i].title == "") {
-                element = `<div class='card'><h2>Não Adicionado</h2><div class="media"></div><h3>Esta atividade ainda não foi adicionada</h3></div>`;
-            } else {
-                element = `<div class='card'><h2>${data.atts[i].title}</h2><div class="media">${data.atts[i].src}</div><h3>${data.atts[i].description}</h3></div>`;
-            }
-            $('.content').append(element);
-        }
-    }
-</script>
+<script src="../js/subjects.js"></script>
