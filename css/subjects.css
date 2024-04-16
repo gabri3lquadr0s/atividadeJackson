@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+.paralax {
+    background-image: url();
+    min-height: 450px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paralax h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    max-width: 500px;
+    --s: 0.1em;
+    --c: #fff
+    color: #0000;
+    padding-bottom: var(--s);
+    background: 
+      linear-gradient(90deg,var(--c) 50%,#774df5 0) calc(100% - var(--_p,0%))/200% 100%,
+      linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: 0.5s;
+    cursor: pointer;
+} .paralax h1:hover {--_p: 100%}
+
+.content {
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.card {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    text-align: justify;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 15px;
+    border: 2px solid #774df5;
+    padding: 15px;
+    align-items: center;
+}
+
+.card h2 {
+    text-align: center;
+}
+
+.media {
+    margin: 0 30px;
+    height: 350px;
+}
+
+.card h3 {
+    font-size: 15px;
+}
