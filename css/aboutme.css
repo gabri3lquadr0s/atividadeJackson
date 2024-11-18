@@ -46,3 +46,12 @@
     margin: 10px;
     text-align: justify;
 }
+
+@media (max-width: 1400px) {
+    .container-aboutme h1 {
+        font-size: 40px;
+    }
+    .container-aboutme h3 {
+        font-size: 14px;
+    }
+}

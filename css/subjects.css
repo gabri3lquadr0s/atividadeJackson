@@ -85,3 +85,20 @@
 .card h3 {
     font-size: 15px;
 }
+
+@media (max-width: 1400px) {
+    .card {
+        width: 550px;
+    }
+    .media {
+        width: 400px;
+    }
+    iframe {
+        width: 100% !important;
+        height: 250px !important;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
