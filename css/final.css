@@ -1,0 +1,22 @@
+.final-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.final-container h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: #774df5;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 1400px) {
+    .final-container h1 {
+        font-size: 40px;
+    }
+    .final-container h3 {
+        font-size: 14px;
+    }
+}
