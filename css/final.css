@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 70px;
 }
 
 .final-container h1 {
@@ -21,9 +22,8 @@
 }
 
 .final-container p {
-    font-size: 16px;
     text-align: center;
-    max-width: 45%;
+    max-width: 55%;
     color: #774df5;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -41,11 +41,31 @@
     margin: auto auto;
 }
 
+.thanks {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+hr {
+    width: 60%;
+    color: #774df5;
+    margin-top: 30px;
+}
+
+.thanks h3 {
+    color: #774df5;
+    text-align: center;
+    font-size: 23px;
+    width: 55%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 @media (max-width: 1400px) {
     .final-container h1 {
         font-size: 40px;
     }
     .final-container h3 {
-        font-size: 14px;
+        font-size: 16px;
     }
 }

@@ -9,6 +9,9 @@ $('h3').on('click', function() {
     else if(id == 7) {
         $('.iframe').attr('src', `./pages/final.html`);
     }
+    else if(id == 8) {
+        $('.iframe').attr('src', `./pages/evolucao.html`);
+    }
     else {
         $('.iframe').attr('src', `./pages/subjects.html`);
         document.getElementById('iframe').onload = () => {document.getElementById('iframe').contentWindow.postMessage(id, '*');}

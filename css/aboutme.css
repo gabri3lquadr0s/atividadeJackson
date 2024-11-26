@@ -66,6 +66,14 @@
     border-radius: 10px;
 }
 
+.objectives h2 {
+    color: #774df5;
+    width: 45%;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
