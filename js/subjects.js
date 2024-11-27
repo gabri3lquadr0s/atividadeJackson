@@ -20,6 +20,11 @@ var stuff = {
                         "src": '<img src="../img/grooving.png" width="300" height="770">',
                         "description": "A Grooving foi meu projeto individual para a disciplina de Desenvolvimento de Aplicativos. Ela consiste em um app de música similar ao Spotify. Com este projeto, pude aprimorar meus conhecimentos em desenvolvimento ainda mais, aprendendo novas ferramentas para o back-end e para o front-end, além de desenvolver um pensamento crítico sobre a usabilidade em celulares. <a href='https://github.com/gabri3lquadr0s/grooving' target='_blank'>Link do Repositório.</a>",
                         "title": "Grooving - 3° Ano"
+                    },
+                    {
+                        "src": '<iframe src="https://www.youtube.com/embed/XsIGDWfV9pc?si=Qh5zHISrnuThT6BC" width="700" height="350" allow="autoplay"></iframe>',
+                        "description": "Como uma das últimas atividades do ano de Fundamentos de Redes, tivemos que formular uma paródia sobre algum tema de redes com uma música de nossa escolha, no caso nosso tema foi camadas de acesso de rede e a música usada foi Hypnotize, da banda System of a Down. Foi um trabalho divertido e bem diferente de se fazer.",
+                        "title": "Paródia de redes - 2º Ano"
                     }
                     ]
             },
