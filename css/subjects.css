@@ -9,6 +9,12 @@
     display: none;
 }
 
+hr {
+    width: 60%;
+    margin-bottom: 3%;
+    color: #774df5;
+}
+
 .paralax {
     background-image: url();
     min-height: 400px;
