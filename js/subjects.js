@@ -22,7 +22,7 @@ var stuff = {
                         "title": "Grooving - 3° Ano"
                     },
                     {
-                        "src": '<iframe src="https://www.youtube.com/embed/XsIGDWfV9pc?si=Qh5zHISrnuThT6BC" width="700" height="350" allow="autoplay"></iframe>',
+                        "src": '<iframe src="https://www.youtube.com/embed/XsIGDWfV9pc?si=Qh5zHISrnuThT6BC" width="700" height="770" allow="autoplay"></iframe>',
                         "description": "Como uma das últimas atividades do ano de Fundamentos de Redes, tivemos que formular uma paródia sobre algum tema de redes com uma música de nossa escolha, no caso nosso tema foi camadas de acesso de rede e a música usada foi Hypnotize, da banda System of a Down. Foi um trabalho divertido e bem diferente de se fazer.",
                         "title": "Paródia de redes - 2º Ano"
                     }
